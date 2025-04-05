@@ -1,4 +1,4 @@
-# dio-overview-portal-azure-lab
+# Lab DIO Bootcamp Bradesco Java Cloud Native - Visão geral do portal de serviços da Azure
 Este repositório é uma entrega para o Bootcamp Bradesco Java Cloud Native e contém um resumo sobre a visão geral sobre a apresentação do portal de serviços da Azure na prática de laboratório do conteúdo.
 
 Neste laboratório, utilizamos uma conta trial. Seu painel é visualmente idêntico ao das contas ativas, porém alguns recursos podem estar indisponíveis devido a custos elevados ou restrições de região.
