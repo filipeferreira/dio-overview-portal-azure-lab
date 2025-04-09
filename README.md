@@ -46,6 +46,35 @@ SaaS - Software como Serviço
 
 Aplicativos e apps hospedados disponibilizados para uso na plataforma de nuvem de acordo com a licença contratada que definirá o que os usuários estão visualizando no software.
 
+## Componentes de arquitetura da Azure
+
+### Regiões 
+Os custos dos recursos e serviços variam conforme a região e os valores de cada região são diferentes e nem todos os recursos estão disponíveis em todas as regiões.
+
+As regiões são compostas de um ou mais datacenters muito próximos (zonas de disponibilidade), que se comunicam com baixa latência e alta performance.
+
+As regiões preservam a residência dos dados conforme as leis de proteção de dados de cada país.
+
+Existe um tipo de região especial que não está disponível para seleção no portal azure quando for criar seus recursos que são as Regiões Soberanas. Estas são regiões são exclusivas e voltadas para as necessidades de segurança e conformidades das agências federais
+
+### Zonas de disponibilidade
+São os datacenters que se comunicam entre si dentro de uma região.
+
+### Pares de regiões 
+Cada região possui uma região par que vai atuar como uma zona secundária quando tivermos um problema de indisponibilidade na região. O par de região faz parte do plano de disaster recovery e faz a replicação automática para alguns serviços.
+
+### Recursos
+São componentes disponíveis para criação como máquinas virtuais, contas de armazenamento, redes virtuais, bancos de dados, etc.
+
+### Grupos de recursos: 
+Os recursos são armazenados em grupos de recursos. São utilizados para organização dos recursos em uma única unidade, como se fosse uma caixa. Os recursos podem existir em apenas um grupo de recursos e os recursos podem existir em diferentes regiões. Os recursos podem ser movidos para diferentes grupos de recursos.
+
+### Assinaturas
+Uma boa forma de organização dos centros de custos são via grupos de assinaturas. As assinaturas possuem controle de acesso de autenticação e autorização. Podemos limitar um limite para cobranças e controle de acesso.
+
+### Grupos de gerenciamento
+Também relacionado a organização. Agrupa as assinaturas de uma conta.
+
 
 
 
