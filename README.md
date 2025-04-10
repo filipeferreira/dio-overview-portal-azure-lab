@@ -75,6 +75,57 @@ Uma boa forma de organização dos centros de custos são via grupos de assinatu
 ### Grupos de gerenciamento
 Também relacionado a organização. Agrupa as assinaturas de uma conta.
 
+## Lab Computação e Rede
+
+### Serviços de computação da Azure
+
+Computação é um serviço sob demanda que fornece recursos de computação como discos, processadores, memória, rede e sistemas operacionais.
+
+### Máquinas virtuais do Azure
+
+São emulações de software de computadores físicos e inclui processaror virtual, memória, armazenamento e rede. É um serviço de IaaS que oferece personalização e controle total.
+
+### Conjuntos de dimensionamento de VMs
+
+Balanceamento de carga. Aumente ou diminua o número de VMs automaticamente de acordo com a demanda ou agenda definida fornecendo maior disponibilidade para as aplicações.
+
+### Conjuntos de disponibilidade de VMs
+
+São agrupamentos lógicos de VMs que reduzem as chances de falhas correlacionadas derrubarem as VMs ao mesmo tempo. Os conjuntos de disponibilidade agrupam as VMs em diferentes domínios de falha (racks diferentes).
+
+Os domínios de falha compartilham a mesma fonte de energia e mesma rede, portanto utilizar domínios de falha diminui as chances de falha por hardware físico, interrupções de rede ou energia.
+
+Os conjuntos de disponibilidade aumentam a disponibilidade e resiliência das aplicações
+
+###  Área de trabalho Virtual do Azure
+
+Virtualização de área de trabalho na nuvem, eliminando a necessidade de envio de máquinas físicas para os colaboradores trabalharem.
+
+### Serviços de contêiners
+
+Ambiente virtualizado que não exige o gerenciamento do sistema operacional. Pode ser iniciado e destruído rapidamente. É um serviço PaaS. Exemplo: docker, kubernetes.
+
+### Azure functions
+
+Um serviço PaaS baseado em eventos executado quando chamado, sem exigir uma infraestrutura de servidor durante períodos inativos
+
+### Serviços de Aplicativos
+
+Plataforma pra criação de aplicativos web e APIs. Suporte para linguagens .NET, Node.js, Java, Python e PHP.
+
+### Serviços de rede
+
+Permite que os recursos do Azure se comuniquem entre si, entre diferentes redes virtuais e com a internet.
+São isoladas por padrão.
+
+Também é fornecido Gateways de VPN para comunicação entre redes Azure e redes locais da organização
+
+Há uma opção chamada de ExpressRoute que se trata se um cabeamento físico entre as redes Azure e da organização.
+
+Outro serviço é de DNS que dão suporte a um conjunto de alias, facilitando o gerenciamento de nomes.
+
+
+
 
 
 
